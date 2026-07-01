@@ -83,3 +83,67 @@ Solution:
 
 Learned how Git commits and pushes work using Cursor.
 Used Cursor's built-in Git interface to stage changes, commit, and push to GitHub.
+
+# Step Two:
+
+# AI-Powered SEO Content Production Research Database
+
+This repository is a portfolio research project on how industry experts use AI to create, optimize, and scale SEO content. It is designed as a structured evidence base for a future AI SEO playbook.
+
+## Why This Topic
+
+AI-powered search is changing how content is discovered, cited, and evaluated. The project focuses on practitioners who publish concrete guidance about AI Overviews, AEO/GEO, topical authority, content optimization, and scalable production workflows.
+
+## Research Methodology
+
+Collection prioritizes official and legitimate sources: YouTube channels, YouTube public caption endpoints, official RSS feeds, WordPress REST APIs, official blogs, conference talks, podcasts, and LinkedIn posts collected through verified public post URLs and LinkedIn embed endpoints.
+
+## Experts Researched
+
+- Matt Diggity
+- Nathan Gotch
+- Koray Tugberk Gubur
+- Lily Ray
+- Aleyda Solis
+- Gael Breton
+- Mark Webster
+- Mike King
+- Bernard Huang
+- Cyrus Shepard
+
+## Repository Structure
+
+- `research/sources.md`: expert profiles and source annotations
+- `research/youtube-transcripts/`: YouTube metadata and transcripts
+- `research/linkedin-posts/`: LinkedIn posts collected via public embed endpoints
+- `research/blogs/`: blog and article records
+- `research/podcasts/`: podcast, interview, and conference talk records
+- `research/other/`: reserved for datasets, reports, and additional source types
+- `research_tools/`: reproducible collection scripts
+
+## Data Collection Workflow
+
+1. Resolve official expert/source channels.
+2. Collect YouTube metadata from official RSS or public search where necessary.
+3. Extract transcripts from YouTube timedtext captions with Innertube metadata fallback.
+4. Collect blog metadata from official RSS and WordPress REST APIs where available.
+5. Collect LinkedIn posts from verified public post URLs and LinkedIn embed endpoints.
+6. Store every resource as markdown with title, date, URL, source, author, metadata, and collection method.
+
+## Tools Used
+
+- YouTube Transcript API-style public caption extraction
+- Official RSS feeds
+- Official WordPress REST APIs
+- LinkedIn public embed endpoint extraction
+- Git
+- Claude Code
+- Cursor
+- Markdown
+
+## Future Work
+
+- Add authenticated YouTube Data API support when an API key is available.
+- Import additional LinkedIn posts through approved exports, official APIs, or user-provided post URLs.
+- Expand summaries into reusable playbook patterns.
+- Build a complete AI SEO playbook from the collected evidence.
